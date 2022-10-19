@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/meshmind/.dotnet/store/|arch|/|tfm|",
+      "/home/meshmind/.nuget/packages"
+    ]
+  }
+}

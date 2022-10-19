@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/meshmind/RiderProjects/MailTest/MailTest/MailTest.csproj": {}
+  },
+  "projects": {
+    "/home/meshmind/RiderProjects/MailTest/MailTest/MailTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/meshmind/RiderProjects/MailTest/MailTest/MailTest.csproj",
+        "projectName": "MailTest",
+        "projectPath": "/home/meshmind/RiderProjects/MailTest/MailTest/MailTest.csproj",
+        "packagesPath": "/home/meshmind/.nuget/packages/",
+        "outputPath": "/home/meshmind/RiderProjects/MailTest/MailTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/meshmind/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.423/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
